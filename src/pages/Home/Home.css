@@ -1,0 +1,95 @@
+/* Gesamte Seite */
+.home{
+    padding-top: 10vh; /* Padding wegen sticky Nav */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Einleitung der Seite */
+.welcome{
+    text-align: center;
+    padding: 2rem;
+}
+
+h1{
+    font-size: 5rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.heroText{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 0.5rem;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+
+/* Auswahl zwischen Allen und zufälligem Bier */
+.homeSelection{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgContainer{
+    position: relative;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+
+.imgContainer:hover{
+    font-size: 2rem;
+    transition: .3s ease;
+}
+
+.homeImg{
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.beerChoice{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: #ffc941d1;
+    padding: 2rem 3rem;
+    border-radius: 2px;
+}
+
+.allBeersSelection{
+    width: 40%;
+}
+
+.randomBeerSelection{
+    width: 40%;
+}
+
+.selectionText{
+    font-size: 1.5rem;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 0.5rem;
+}
+
+/* ======MEDIA QUERIES ====== */
+@media screen and (max-width: 768px) {
+    .homeSelection{
+        flex-direction: column;
+        align-items: center;
+    }  
+
+    .allBeersSelection{
+        width: 95%;
+    }
+    
+    .randomBeerSelection{
+        width: 95%;
+    }
+}
