@@ -30,7 +30,7 @@ const RandomBeer = () => {
             <NavLink to={'/'}><img className="back" src={Back} alt="zurück" /></NavLink>
             <article className="detailArticle">
                 <img src={randomData.image_url} alt={randomData.name} />
-                <div>
+                <div className="detailText">
                     <h2 className="bigH">{randomData.name}</h2>
                     <h3 className="yellowH">{randomData.tagline}</h3>
                     <div className="grayText">

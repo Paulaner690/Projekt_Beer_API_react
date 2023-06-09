@@ -30,7 +30,7 @@ const Home = () => {
 
                 <article className="randomBeerSelection">
                     <div className="imgContainer">
-                        <NavLink className="imgContainer" to={"/random"}>
+                        <NavLink to={"/random"}>
                             <img className="homeImg" src={RandomImg} alt="Beer" />
                             <h2 className="beerChoice">Zufälliges Bier</h2>
                         </NavLink>

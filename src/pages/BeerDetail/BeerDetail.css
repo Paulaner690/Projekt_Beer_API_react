@@ -15,7 +15,7 @@
 }
 
 .detailArticle img{
-    height: 80vh;
+    height: 75vh;
     object-fit: contain;
     margin-bottom: 2rem;
 }
