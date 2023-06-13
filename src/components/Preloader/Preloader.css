@@ -1,0 +1,12 @@
+.loadingPage{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.preloaderText{
+    color: white;
+}
